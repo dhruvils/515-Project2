@@ -1,4 +1,11 @@
-function deCas_subdivision_m(control_points, n)
+function deCas_subdivision_m(control_points, n, convert)
+    if convert
+        x = {};
+        for i=1:length(control_points)
+            x{i} = control_points(i,:);
+        end
+        control_points = x;
+    end
     t = 0.5;
     num_ctrl_points = length(control_points);
     p = cell(num_ctrl_points, num_ctrl_points);
@@ -20,8 +27,8 @@ function deCas_subdivision_m(control_points, n)
             ld{i} = p{i, j};
             j = j - 1;
         end
-        deCas_subdivision_m(ud, n-1);
-        deCas_subdivision_m(ld, n-1);
+        deCas_subdivision_m(ud, n-1, false);
+        deCas_subdivision_m(ld, n-1, false);
     else
         x = [];
         y = [];
