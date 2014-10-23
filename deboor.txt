@@ -3,3 +3,4 @@ Technically, the system giving the control points from the points we wish to use
 generate a cubic spline curve is given by a tridiagonal matrix found from using the 
 De Boor algorithm. Since the beginning and end points are known, they are omitted from 
 the left side of the equality, since the De Boor algorithm leaves two degrees of freedom in the solution.
+The usage of the De Boor algorithm was to allow continuity between the joined splines up to the second derivative.
