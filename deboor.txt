@@ -1,1 +1,5 @@
-This system arises from the fact that in our points, we have uniform knot multiplicity. Technically, the system giving the control points from the points we wish to use to generate a cubic spline curve is given by a tridiagonal matrix found from using the De Boor algorithm. Since the beginning and end points are known, they are omitted from the left side of the equality, since the De Boor algorithm leaves two degrees of freedom in the solution.
+This system arises from the fact that in our points, we have uniform knot multiplicity. 
+Technically, the system giving the control points from the points we wish to use to 
+generate a cubic spline curve is given by a tridiagonal matrix found from using the 
+De Boor algorithm. Since the beginning and end points are known, they are omitted from 
+the left side of the equality, since the De Boor algorithm leaves two degrees of freedom in the solution.
