@@ -116,7 +116,7 @@ end
 %CS 3D matrix for the curve segments
 CS=zeros(4,2,N-2);
 %Plotting the de-Boor points
-plot(D(:,1),D(:,2))
+plot(D(:,1),D(:,2),'r')
 hold on
 for k=1:N-2
     CS(:,:,k)=C(:,:,k)*D;
