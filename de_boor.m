@@ -1,3 +1,4 @@
+function [CS] = de_boor(D, N)
 %D is a matrix of points of order N+1x2
 %N is the number of de-Boor control points
 C=zeros(4,N+1,N-2);

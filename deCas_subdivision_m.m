@@ -1,4 +1,4 @@
-function deCas_subdivision_m( control_points, n)
+function deCas_subdivision_m(control_points, n)
     t = 0.5;
     num_ctrl_points = length(control_points);
     p = cell(num_ctrl_points, num_ctrl_points);
