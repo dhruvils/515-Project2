@@ -124,5 +124,6 @@ for k=1:N-2
     plot(CS(:,1,k),CS(:,2,k))
     hold on
 end
+legend('de Boor Points','Bezier Curve')
 
 
