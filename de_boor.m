@@ -120,7 +120,7 @@ plot(D(:,1),D(:,2),'r')
 hold on
 for k=1:N-2
     CS(:,:,k)=C(:,:,k)*D;
-    %Plotting the different curve segments
+    %Plotting the curve segments
     plot(CS(:,1,k),CS(:,2,k))
     hold on
 end
