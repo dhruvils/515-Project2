@@ -22,8 +22,9 @@ $C_i(1) = 2 b_1^i - 4 b_2^i + 6 b_3^i$.
 We then have the constraints that 
 $6 b_0^{i-1} - 4 b_1^{i-1} + 2 b_2^{i-1} = 2 b_1^i - 4 b_2^i + 6 b_3^i$ and
 $6 b_0^{i} - 4 b_1^{i} + 2 b_2^{i} = 2 b_1^{i+1} - 4 b_2^{i+1} + 6 b_3^{i+1}$,
-as well as $b_3^{i-1} = b_0^i$ and $b_3^i = b_0^{i+1}$
-which leads to 
+as well as $b_3^{i-1} = b_0^i$ and $b_3^i = b_0^{i+1}$.
+Manipulating the for equation for all $i$, we have 
+which leads to, after a little more manipulation
 \begin{align*}
 6b_3^i &= 6 b_0 ^{i-1} - 4 b_1^{i-1} + 2b_2^{i-1}-2b_1^{i}+4b_2^i\\
 &= d_{i-2} + 4 d_{i-1} + d_{i}\\
