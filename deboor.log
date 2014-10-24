@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  23 OCT 2014 20:34
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  23 OCT 2014 20:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -100,7 +100,7 @@ or.aux) )
 Here is how much of TeX's memory you used:
  828 strings out of 493315
  9230 string characters out of 6137904
- 65153 words of memory out of 5000000
+ 66153 words of memory out of 5000000
  4339 multiletter control sequences out of 15000+600000
  7050 words of font info for 26 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
@@ -111,7 +111,7 @@ i12.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi
 pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb
 ></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
 </usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on deboor.pdf (1 page, 56096 bytes).
+Output written on deboor.pdf (1 page, 56275 bytes).
 PDF statistics:
  32 PDF objects out of 1000 (max. 8388607)
  22 compressed objects within 1 object stream
